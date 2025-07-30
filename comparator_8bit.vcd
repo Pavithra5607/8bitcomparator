@@ -1,0 +1,73 @@
+$date
+	Wed Jul 30 09:45:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_comparator_8bit $end
+$var wire 1 ! A_lt_B $end
+$var wire 1 " A_gt_B $end
+$var wire 1 # A_eq_B $end
+$var reg 8 $ A [7:0] $end
+$var reg 8 % B [7:0] $end
+$scope module uut $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var reg 1 # A_eq_B $end
+$var reg 1 " A_gt_B $end
+$var reg 1 ! A_lt_B $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110010 '
+b1100100 &
+b110010 %
+b1100100 $
+0#
+1"
+0!
+$end
+#10
+1#
+0"
+b11110 %
+b11110 '
+b11110 $
+b11110 &
+#20
+1!
+0#
+b101000 %
+b101000 '
+b10100 $
+b10100 &
+#30
+0!
+1#
+b0 %
+b0 '
+b0 $
+b0 &
+#40
+0#
+1"
+b10000000 %
+b10000000 '
+b11111111 $
+b11111111 &
+#50
+1!
+0"
+b11001000 %
+b11001000 '
+b111 $
+b111 &
+#60
